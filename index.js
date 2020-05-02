@@ -1,5 +1,7 @@
 // import node's native file system module (https://nodejs.org/api/fs.html)
 const fs = require('fs');
+
+// require the discord.js module
 const Discord = require('discord.js');
 
 const { prefix, token, hypixel } = require('./config.json');
