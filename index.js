@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const client = new Discord.Client();
+const client = new Discord.Client(); // Can specify client#Options here but really don't need to.
 
 client.once("ready", () => {
     console.log("Hello, world.");
