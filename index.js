@@ -1,16 +1,15 @@
 const Discord = require("discord.js");
-const client = new Discord.Client(); // Can specify client#Options here but really don't need to.
+const client = new Discord.Client();
+
+const { get } = require("snekfetch");
+const { token } = require("./config.json");
 
 client.once("ready", () => {
     console.log("Hello, world.");
 });
 
-client.on("message", (message) => {
-    if (message.content === "hello") {
-        message.reply("OK, Boomer.");
-    }
+client.on("message", async(message) => {
     
-    // Type "hello" into a discord chat that the bot has access to type in..
 });
 
-client.login(""); // Bot Token
+client.login(token);
