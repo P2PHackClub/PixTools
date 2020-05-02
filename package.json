@@ -1,0 +1,20 @@
+{
+  "name": "pixtools",
+  "version": "0.0.1",
+  "description": "NULL",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "discord.js": "^11.5.1",
+    "snekfetch": "^4.0.4",
+    "node-gyp": "^6.1.0"
+  },
+  "repository": {
+    "url": "https://github.com/P2PHackClub/PixTools/"
+  },
+  "license": "MIT"
+}
