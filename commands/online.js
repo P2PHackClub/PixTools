@@ -11,13 +11,5 @@ module.exports = {
 				message.channel.send(`There are **${ playerCount }** on the Hypixel Network.`);
 
 			});
-
-		// console.log('https://api.hypixel.net/key?key=' + hypixel)
-		// fetch('https://api.hypixel.net/key?key=' + hypixel)
-		// 	.then(result => result.json())
-		// 	.then(({ record }) => {
-		// 		// Log the owner's player UUID
-		// 		message.channel.send(record.ownerUuid);
-		// 	}).catch(() => { console.log('ooooof'); });
 	},
 };
