@@ -67,8 +67,7 @@ client.on('message', async (message) => {
 
 	try {
 		client.commands.get(command).execute(client, message, args);
-	}
-	catch (error) {
+	} catch (error) {
         console.error(error);
         const embed = new Discord.RichEmbed();
         embed.setColor("RED");
