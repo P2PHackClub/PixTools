@@ -72,7 +72,11 @@ client.on('message', async (message) => {
 		client.commands.get(command).execute(client, message, args);
 	}
 	catch (error) {
-		console.error(error);
+        console.error(error);
+        const embed = new Discord.RichEmbed();
+        embed.setColor("RED");
+        embed.addField("Error", error);
+        client.channels.get("706367586039889920").send({embed});
 		message.reply('there was an error trying to execute that command!');
 	}
 });
