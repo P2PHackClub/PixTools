@@ -24,7 +24,16 @@ for (const file of commandFiles) {
 // when the client is ready, run this code
 // this event will only trigger one time after logging in
 client.once('ready', () => {
+    client.channels.get("706363592454176818").setName(`Servers: ${client.guilds.size}/100`);
 	console.log(`Logged in as ${client.user.tag} and on ${client.guilds.size} guilds with ${client.users.size} users.`);
+});
+
+client.on("guildCreate", () => {
+    client.channels.get("706363592454176818").setName(`Servers: ${client.guilds.size}/100`);
+});
+
+client.on("guildDelete", () => {
+    client.channels.get("706363592454176818").setName(`Servers: ${client.guilds.size}/100`);
 });
 
 client.on('message', async (message) => {
