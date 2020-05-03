@@ -11,7 +11,8 @@ const client = new Discord.Client({
     disableEveryone: true,
     disabledEvents: [
         "GUILD_BAN_ADD", "GUILD_MEMBERS_CHUNK", "MESSAGE_DELETE_BULK"
-    ]
+    ],
+    fetchAllMembers: true
 });
 client.commands = new Discord.Collection();
 
