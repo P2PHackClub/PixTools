@@ -82,7 +82,6 @@ client.on('message', async (message) => {
 });
 
 client.on("error", (error) => {
-    // 706367586039889920
     const embed = new Discord.RichEmbed();
         embed.setColor("RED");
         embed.addField("Error", 'boomer???');
