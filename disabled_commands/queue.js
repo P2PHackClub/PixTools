@@ -59,6 +59,7 @@ module.exports = {
             serverQueue.games.push(game);
             return message.channel.send(`${game.title} has been added to the queue!`);
         }
+        
         }
 
         function skip(message, serverQueue) {
