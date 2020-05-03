@@ -11,3 +11,5 @@ class Premium {
         return this;
     }
 }
+
+return Premium();
