@@ -1,3 +1,11 @@
+# configs
+config.json
+.env
+config.js
+config.yaml
+config.yml
+*.env
+
 # Logs
 logs
 *.log
