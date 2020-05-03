@@ -3,8 +3,7 @@ module.exports = {
     description: 'Puts games in a queue',
     execute(message, args) {
         const Discord = require("discord.js");
-        const { prefix, token } = require("./config.json");
-        const ytdl = require("ytdl-core");
+        const { prefix } = require("../config.json");
 
         const client = new Discord.Client();
 
@@ -69,10 +68,6 @@ module.exports = {
         }
 
         function stop(message, serverQueue) {
-        if (!message.member.voice.channel)
-            return message.channel.send(
-            "You have to be in a voice channel to stop the music!"
-            );
         serverQueue.games = [];
         serverQueue.connection.dispatcher.end();
         }
@@ -88,7 +83,7 @@ module.exports = {
         serverQueue.textChannel.send(`Start playing: **${game.title}**`);
         }
 
-        client.login(token);
+        client.login(process.env.TOKEN);
     }
 
 };
