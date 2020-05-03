@@ -38,9 +38,11 @@ client.on("guildDelete", (guild) => {
     client.channels.get("706363592454176818").setName(`Servers: ${client.guilds.size}/100`);
 });
 
+/*
 client.on("raw", (raw) => {
     console.log(raw);
 });
+*/
 
 client.on('message', async (message) => {
 
