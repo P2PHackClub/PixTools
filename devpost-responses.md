@@ -17,3 +17,13 @@
 
 ## What we learned
 * I learned how to use SQL dbs and how to configure and utilize ESLint. - Damian
+
+# Anon
+## Challenges we ran into
+* I figured time constraints would make a developed product that didn't live up to the standards set by ourselves, yet either way in the time we were allotted it looks good! - Arihant
+
+## Accomplishments that we're proud of
+* Getting myself out there to actually join a team instead of going solo sounded like a good change and I'm glad I was able to interact with more parts of the community due to it.
+
+## What we learned
+* My understanding of video-edition has been pushed plus re-familiarizing myself with JS and Discord Bot Creation
