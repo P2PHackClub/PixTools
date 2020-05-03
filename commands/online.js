@@ -5,7 +5,7 @@ module.exports = {
 		const fetch = require('node-fetch');
 		const { hypixel } = require('../config.json');
 
-		fetch('https://api.hypixel.net/playerCount?key=' + hypixel)
+		fetch(`https://api.hypixel.net/playerCount?key=${hypixel}`)
 			.then(result => result.json())
 			.then(({ playerCount }) => {
 				message.channel.send(`There are **${ playerCount }** on the Hypixel Network.`);
