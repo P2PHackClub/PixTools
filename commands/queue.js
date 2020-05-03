@@ -3,7 +3,7 @@ module.exports = {
     description: 'Puts games in a queue',
     execute(message, args) {
         const Discord = require("discord.js");
-        const { prefix, token } = require("./config.json");
+        const { prefix } = require("./config.json");
         const ytdl = require("ytdl-core");
 
         const client = new Discord.Client();
@@ -88,7 +88,7 @@ module.exports = {
         serverQueue.textChannel.send(`Start playing: **${game.title}**`);
         }
 
-        client.login(token);
+        client.login(process.env.TOKEN);
     }
 
 };
