@@ -4,6 +4,9 @@ require('dotenv').config();
 // require the discord.js module
 const Discord = require('discord.js');
 
+const { Users } = require('./dbObjects');
+const { Op } = require('sequelize');
+
 const { prefix, hypixel } = require('./config.json');
 
 // create a new Discord client
@@ -27,6 +30,8 @@ for (const file of commandFiles) {
 	// with the key as the command name and the value as the exported module
 	client.commands.set(command.name, command);
 }
+
+
 
 // when the client is ready, run this code
 // this event will only trigger one time after logging in
