@@ -1,7 +1,7 @@
 module.exports = {
-	name: 'commands',
+	name: 'test',
 	description: 'NULL',
 	execute(client, message, args) {
-		// do sumthing here LOL
+		return message.channel.send(`${message.author}, This is just a test command.`);
 	},
 };

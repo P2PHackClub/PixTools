@@ -49,10 +49,10 @@ module.exports = {
         if (!serverQueue) {
             const queueContruct = {
             textChannel: message.channel,
+            game: "nani"
             };
 
             queue.set(message.guild.id, queueContruct);
-
             queueContruct.games.push(games);
 
         } else {
