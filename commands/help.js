@@ -18,6 +18,5 @@ module.exports = {
 			embed.setTitle("PixTools Help Command");
 			embed.setDescription(str);
 		return message.channel.send({ embed });
-		// message.channel.send(str);
 	},
 };
