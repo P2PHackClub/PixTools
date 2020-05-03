@@ -4,7 +4,6 @@ module.exports = {
     execute(message, args) {
         const Discord = require("discord.js");
         const { prefix } = require("../config.json");
-        const ytdl = require("ytdl-core");
 
         const client = new Discord.Client();
 
@@ -69,10 +68,6 @@ module.exports = {
         }
 
         function stop(message, serverQueue) {
-        if (!message.member.voice.channel)
-            return message.channel.send(
-            "You have to be in a voice channel to stop the music!"
-            );
         serverQueue.games = [];
         serverQueue.connection.dispatcher.end();
         }
