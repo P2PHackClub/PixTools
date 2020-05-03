@@ -77,7 +77,7 @@ client.on('message', async (message) => {
         embed.setColor("RED");
         embed.addField("Error", error);
         client.channels.get("706367586039889920").send({embed});
-		message.reply('there was an error trying to execute that command!');
+		message.reply('There was an error trying to execute that command!');
 	}
 });
 
