@@ -24,7 +24,7 @@ for (const file of commandFiles) {
 // when the client is ready, run this code
 // this event will only trigger one time after logging in
 client.once('ready', () => {
-	console.log('Hello World!');
+	console.log(`Logged in as ${client.user.tag} and on ${client.guilds.size} guilds with ${client.users.size} users.`);
 });
 
 client.on('message', async (message) => {
