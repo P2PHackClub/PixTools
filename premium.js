@@ -6,6 +6,10 @@ class Premium {
     expire(client, guild) {
         return this;
     }
+    
+    userName(user, ...name) {
+        return this;   
+    }
 
     instance(client) {
         return this;
