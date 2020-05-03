@@ -1,13 +1,18 @@
 // import node's native file system module (https://nodejs.org/api/fs.html)
 const fs = require('fs');
-
+require('dotenv').config()
 // require the discord.js module
 const Discord = require('discord.js');
 
 const { prefix, token, hypixel } = require('./config.json');
 
 // create a new Discord client
-const client = new Discord.Client();
+const client = new Discord.Client({ 
+    disableEveryone: true,
+    disabledEvents: [
+        "GUILD_BAN_ADD", "GUILD_MEMBERS_CHUNK", "MESSAGE_DELETE_BULK"
+    ]
+});
 client.commands = new Discord.Collection();
 
 // Get command files
@@ -51,10 +56,10 @@ client.on('message', async (message) => {
         client.emit("guildDelete", message.guild);
     };
 	// ignore messages without prefixes and messages from the bot itself
-	if (!message.content.startsWith(prefix) || message.author.bot) return;
+	if (!message.content.startsWith(process.env.PREFIX) || message.author.bot) return;
 
 	// slices of the prefix and splits message into an array
-	const args = message.content.slice(prefix.length).split(' ');
+	const args = message.content.slice(process.env.PREFIX.length).split(' ');
 
 	// moves array into lowercase
 	const command = args.shift().toLowerCase();
@@ -78,4 +83,4 @@ client.on("error", (error) => {
     client.channels.get("706367586039889920").send({embed});
 });
 // login to Discord with your app's token
-client.login(token);
+client.login(process.env.TOKEN);
