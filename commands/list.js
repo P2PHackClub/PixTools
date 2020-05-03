@@ -8,7 +8,7 @@ module.exports = {
         fetch('https://api.hypixel.net/gameCounts?key=${hypixel}')
             .then(result => result.json())
             .then(({ data, games }) => {
-                const obj = JSON.stringify(games);
+                const obj = JSON.parse(games);
                 const listArr = data.map(obj => obj.games)
                 message.channel.send(listArr);
 
