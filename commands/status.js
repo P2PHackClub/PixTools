@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
 	name: 'status',
 	description: 'Returns the status of the Hypixel API.',
