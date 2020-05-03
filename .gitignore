@@ -1,10 +1,15 @@
-# configs
+# Config
 config.json
 .env
 config.js
 config.yaml
 config.yml
 *.env
+
+# Enmap
+*.data
+data/
+/data/*
 
 # Logs
 logs
