@@ -1,6 +1,7 @@
 module.exports = {
 	name: 'status',
 	description: 'Returns the status of the Hypixel API.',
+	premiumOnly: true,
 	execute(client, message, args) {
 		const fetch = require('node-fetch');
 		const { hypixel } = require('../config.json');
