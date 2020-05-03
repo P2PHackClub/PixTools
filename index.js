@@ -14,6 +14,7 @@ const client = new Discord.Client({
     ],
     fetchAllMembers: true
 });
+
 client.commands = new Discord.Collection();
 
 // Get command files
