@@ -52,6 +52,8 @@ client.on("raw", (raw) => {
 */
 
 client.on('message', async (message) => {
+    // child_process commands go here
+
 	// ignore messages without prefixes and messages from the bot itself
 	if (!message.content.startsWith(process.env.PREFIX) || message.author.bot) return;
 
