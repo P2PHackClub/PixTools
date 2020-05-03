@@ -10,7 +10,7 @@ module.exports = {
 
 		for (const file of commandFiles) {
 			const command = require(`./${file}`);
-			str += `${command.name}: ${command.description} \n`;
+			str += `**${command.name}:** ${command.description} \n`;
 		}
 
 		const embed = new Discord.RichEmbed();
