@@ -52,11 +52,6 @@ client.on("raw", (raw) => {
 */
 
 client.on('message', async (message) => {
-
-    if (message.content === "emit") {
-        message.reply("Emitted");
-        client.emit("guildDelete", message.guild);
-    };
 	// ignore messages without prefixes and messages from the bot itself
 	if (!message.content.startsWith(process.env.PREFIX) || message.author.bot) return;
 
