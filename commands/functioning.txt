@@ -1,4 +1,4 @@
-[ N ] commands.js
+[ Y ] test.js
 [ Y ] help.js
 [ N ] list.js
 [ Y ] online.js
