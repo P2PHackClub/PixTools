@@ -7,11 +7,12 @@ module.exports = {
 
         fetch('https://api.hypixel.net/gameCounts?key=${hypixel}')
             .then(result => result.json())
-            .then(({ games }) => {
-                const obj = JSON.stringify(games);
+            .then(({ data, games }) => {
+                const obj = JSON.parse(games);
+                document.getElementById("history").innerHTML = obj;
                 const listArr = data.map(obj => obj.games)
                 message.channel.send(listArr);
-
-            });
+            })
+            .catch(err => console.log(err));
     },
 };
