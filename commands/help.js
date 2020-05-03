@@ -1,4 +1,5 @@
 const fs = require('fs');
+const Discord = require("discord.js");
 
 module.exports = {
 	name: 'help',
@@ -12,6 +13,11 @@ module.exports = {
 			str += `Name: ${command.name}, Description: ${command.description} \n`;
 		}
 
-		message.channel.send(str);
+		const embed = new Discord.RichEmbed();
+			embed.setColor("GREEN");
+			embed.setTitle("PixTools Help Command");
+			embed.setDescription(str);
+		return message.channel.send({ embed });
+		// message.channel.send(str);
 	},
 };
