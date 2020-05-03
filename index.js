@@ -28,15 +28,26 @@ client.once('ready', () => {
 	console.log(`Logged in as ${client.user.tag} and on ${client.guilds.size} guilds with ${client.users.size} users.`);
 });
 
-client.on("guildCreate", () => {
+client.on("guildCreate", (guild) => {
+    console.log(`[GUILD_CREATE]: Invited to ${guild.name}.`)
     client.channels.get("706363592454176818").setName(`Servers: ${client.guilds.size}/100`);
 });
 
-client.on("guildDelete", () => {
+client.on("guildDelete", (guild) => {
+    console.log(`[GUILD_DELETE]: Removed from ${guild.name}.`);
     client.channels.get("706363592454176818").setName(`Servers: ${client.guilds.size}/100`);
+});
+
+client.on("raw", (raw) => {
+    console.log(raw);
 });
 
 client.on('message', async (message) => {
+
+    if (message.content === "emit") {
+        message.reply("Emitted");
+        client.emit("guildDelete", message.guild);
+    };
 	// ignore messages without prefixes and messages from the bot itself
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
 
@@ -57,5 +68,12 @@ client.on('message', async (message) => {
 	}
 });
 
+client.on("error", (error) => {
+    // 706367586039889920
+    const embed = new Discord.RichEmbed();
+        embed.setColor("RED");
+        embed.addField("Error", 'boomer???');
+    client.channels.get("706367586039889920").send({embed});
+});
 // login to Discord with your app's token
 client.login(token);
