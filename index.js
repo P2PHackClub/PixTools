@@ -28,7 +28,7 @@ client.once('ready', () => {
 });
 
 client.on('message', async (message) => {
-	// ignore messages without prefixes + TODO: Add docs for message.author.bot
+	// ignore messages without prefixes and messages from the bot itself
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
 
 	// slices of the prefix and splits message into an array
