@@ -8,11 +8,13 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "discord.io": "^2.5.3",
     "discord.js": "^11.6.4",
     "eslint": "^6.8.0",
     "express": "^4.17.1",
     "node-fetch": "^2.6.0",
-    "node-gyp": "^6.1.0"
+    "node-gyp": "^6.1.0",
+    "winston": "^3.2.1"
   },
   "repository": {
     "url": "https://github.com/P2PHackClub/PixTools/"
