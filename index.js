@@ -77,11 +77,5 @@ client.on('message', async (message) => {
 	}
 });
 
-client.on("error", (error) => {
-    const embed = new Discord.RichEmbed();
-        embed.setColor("RED");
-        embed.addField("Error", 'boomer???');
-    client.channels.get("706367586039889920").send({embed});
-});
 // login to Discord with your app's token
 client.login(process.env.TOKEN);
