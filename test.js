@@ -1,1 +1,1 @@
-// rewrite of index.js
+'use strict';
