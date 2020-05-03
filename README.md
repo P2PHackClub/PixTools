@@ -5,4 +5,6 @@
 
 PixTools is a Discort Bot built in discordjs for people who love to host Hypixel games with their friends. PixTools makes your life easier as a host by managing a minigame queue for discord members to add minigames to.
 
-This discord bot was initially created in 24 hours at the digital MLH Hack at Home hackathon by [@Giavern](https://github.com/Gigavern), [@SuperCoderDamian](https://github.com/SuperCoderDamian), [@thatrobotdev](https://github.com/thatrobotdev), and [@thematrixdev06](https://github.com/thematrixdev06). 
+This discord bot was initially created in 24 hours at the digital MLH Hack at Home hackathon by [@Gigavern](https://github.com/Gigavern), [@SuperCoderDamian](https://github.com/SuperCoderDamian), [@thatrobotdev](https://github.com/thatrobotdev), and [@thematrixdev06](https://github.com/thematrixdev06). 
+
+## [Devpost](https://devpost.com/software/pixtools-a-discord-bot-for-hypixel-queues)
