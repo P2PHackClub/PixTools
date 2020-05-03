@@ -1,13 +1,13 @@
 class Premium { 
-    user() {
+    user(client, user, guild) {
       return this;
     }
 
-    expire() {
+    expire(client, guild) {
         return this;
     }
 
-    instance() {
+    instance(client) {
         return this;
     }
 }
