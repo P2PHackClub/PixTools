@@ -9,14 +9,17 @@ module.exports = {
 		const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
 		for (const file of commandFiles) {
-			const command = require(`./${file}`);
-			str += `**${command.name}:** ${command.description} \n`;
+			name += `${command.name}`;
+			desc += `${command.description}`;
 		}
 
-		const embed = new Discord.RichEmbed();
+		command.forEach(c => {
+			const command = require(`./${file}`);
+			const embed = new Discord.RichEmbed();
 			embed.setColor("GREEN");
-			embed.setTitle("PixTools Help Command");
-			embed.setDescription(str);
-		return message.channel.send({ embed });
+			embed.addField(name, desc)
+			return message.channel.send({ embed });
+		});
+
 	},
 };

@@ -1,1 +1,1 @@
-CREATE TABLE hosts (userName TEXT, wins INTEGER)
+CREATE TABLE wins (userName TEXT, wins INTEGER)
