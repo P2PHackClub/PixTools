@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "thematrixdev06",
+      "name": "Sidd Nareddy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/58618229?v=4",
+      "profile": "https://github.com/thematrixdev06",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "PixTools",
+  "projectOwner": "P2PHackClub",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
