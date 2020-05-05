@@ -25,14 +25,18 @@ client.commands = new Discord.Collection();
 // Get command files
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
-for (const file of commandFiles) {
-	const command = require(`./commands/${file}`);
+console.log(commandFiles.isArray);
+
+console.log("Attemping to load commands in the commands folder.")
+
+commandFiles.forEach(function (file, i) {
+    const command = require(`./commands/${file}`);
+    console.log(`${file} Loaded (${i + 1}/${commandFiles.length})`);
 
 	// set a new item in the Collection
 	// with the key as the command name and the value as the exported module
 	client.commands.set(command.name, command);
-}
-
+});
 
 
 // when the client is ready, run this code
@@ -62,7 +66,7 @@ client.on('message', async (message) => {
     // child_process commands go here
 
 	// ignore messages without prefixes and messages from the bot itself
-	if (!message.content.startsWith(process.env.PREFIX) || message.author.bot) return;
+    if (!message.content.startsWith(process.env.PREFIX) || message.author.bot) return;
 
 	// slices of the prefix and splits message into an array
 	const args = message.content.slice(process.env.PREFIX.length).split(' ');
