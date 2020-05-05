@@ -21,7 +21,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/Gigavern"><img src="https://avatars0.githubusercontent.com/u/34492600?v=4" width="100px;" alt=""/><br /><sub><b>Giga</b></sub></a><br /><a href="#design-Gigavern" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/Gigavern"><img src="https://avatars0.githubusercontent.com/u/34492600?v=4" width="100px;" alt=""/><br /><sub><b>Giga</b></sub></a><br /><a href="#design-Gigavern" title="Design">🎨</a> <a href="https://github.com/P2PHackClub/PixTools/commits?author=Gigavern" title="Code">💻</a></td>
   </tr>
 </table>
 
