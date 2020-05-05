@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Gigavern",
+      "name": "Giga",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/34492600?v=4",
+      "profile": "https://github.com/Gigavern",
+      "contributions": [
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "PixTools",
+  "projectOwner": "P2PHackClub",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
