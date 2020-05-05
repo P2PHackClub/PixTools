@@ -35,7 +35,10 @@
         "example",
         "ideas",
         "maintenance",
-        "projectManagement"
+        "projectManagement",
+        "security",
+        "tool",
+        "test"
       ]
     },
     {
