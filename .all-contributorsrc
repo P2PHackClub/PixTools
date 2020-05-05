@@ -23,6 +23,15 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "SuperCoderDamian",
+      "name": "Damian Freeman",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/59120701?v=4",
+      "profile": "https://scorz.me",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
