@@ -38,7 +38,8 @@
         "projectManagement",
         "security",
         "tool",
-        "test"
+        "test",
+        "infra"
       ]
     },
     {
