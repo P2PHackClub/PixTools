@@ -22,7 +22,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/thematrixdev06"><img src="https://avatars3.githubusercontent.com/u/58618229?v=4" width="100px;" alt=""/><br /><sub><b>Sidd Nareddy</b></sub></a><br /><a href="https://github.com/P2PHackClub/PixTools/commits?author=thematrixdev06" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Gigavern"><img src="https://avatars0.githubusercontent.com/u/34492600?v=4" width="100px;" alt=""/><br /><sub><b>Giga</b></sub></a><br /><a href="#design-Gigavern" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/Gigavern"><img src="https://avatars0.githubusercontent.com/u/34492600?v=4" width="100px;" alt=""/><br /><sub><b>Giga</b></sub></a><br /><a href="#design-Gigavern" title="Design">🎨</a> <a href="https://github.com/P2PHackClub/PixTools/commits?author=Gigavern" title="Code">💻</a></td>
     <td align="center"><a href="https://scorz.me"><img src="https://avatars3.githubusercontent.com/u/59120701?v=4" width="100px;" alt=""/><br /><sub><b>Damian Freeman</b></sub></a><br /><a href="https://github.com/P2PHackClub/PixTools/commits?author=SuperCoderDamian" title="Code">💻</a></td>
   </tr>
 </table>
