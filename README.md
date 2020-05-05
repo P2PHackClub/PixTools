@@ -1,6 +1,6 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8755fad425e049b9b55ea0e40d9a3c60)](https://app.codacy.com/gh/P2PHackClub/PixTools?utm_source=github.com&utm_medium=referral&utm_content=P2PHackClub/PixTools&utm_campaign=Badge_Grade_Dashboard)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # PixTools
@@ -22,6 +22,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/thematrixdev06"><img src="https://avatars3.githubusercontent.com/u/58618229?v=4" width="100px;" alt=""/><br /><sub><b>Sidd Nareddy</b></sub></a><br /><a href="https://github.com/P2PHackClub/PixTools/commits?author=thematrixdev06" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Gigavern"><img src="https://avatars0.githubusercontent.com/u/34492600?v=4" width="100px;" alt=""/><br /><sub><b>Giga</b></sub></a><br /><a href="#design-Gigavern" title="Design">🎨</a></td>
   </tr>
 </table>
 
