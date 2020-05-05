@@ -13,6 +13,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Gigavern",
+      "name": "Giga",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/34492600?v=4",
+      "profile": "https://github.com/Gigavern",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
