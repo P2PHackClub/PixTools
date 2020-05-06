@@ -9,6 +9,9 @@ This discord bot was initially created in 24 hours at the digital MLH Hack at Ho
 
 ## [Devpost](https://devpost.com/software/pixtools-a-discord-bot-for-hypixel-queues)
 
+# Porting to a new bot..
+Currently, [SuperCoderDamian](https://github.com/SuperCoderDamian) is porting everything, including a code rewrite over to a new bot.
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
