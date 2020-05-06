@@ -1,3 +1,5 @@
+'use strict';
+
 require('./checkNodeVersion');
 
 // import node's native file system module (https://nodejs.org/api/fs.html)
