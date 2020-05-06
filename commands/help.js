@@ -9,17 +9,16 @@ module.exports = {
 		const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
 		for (const file of commandFiles) {
-			name += `${command.name}`;
-			desc += `${command.description}`;
+			const command = require(`./${file}`);
+			str += `**${command.name}:** ${command.description} \n`;
 		}
 
-		command.forEach(c => {
+		for (const file of commandFiles) {
 			const command = require(`./${file}`);
-			const embed = new Discord.RichEmbed();
-			embed.setColor("GREEN");
-			embed.addField(name, desc)
-			return message.channel.send({ embed });
-		});
+			str += `Name: ${command.name}, Description: ${command.description} \n`;
+		}
+
+		message.channel.send(str);
 
 	},
 };
