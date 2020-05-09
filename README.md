@@ -1,4 +1,4 @@
-<iframe src="https://discordapp.com/widget?id=708570243638755328&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+[![Discord](https://discordapp.com/widget?id=708570243638755328&theme=dark)
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8755fad425e049b9b55ea0e40d9a3c60)](https://app.codacy.com/gh/P2PHackClub/PixTools?utm_source=github.com&utm_medium=referral&utm_content=P2PHackClub/PixTools&utm_campaign=Badge_Grade_Dashboard) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section --> [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-) <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
